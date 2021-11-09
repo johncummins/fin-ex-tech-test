@@ -7,5 +7,5 @@ Fork the master branch of the git repo
 - Place the following code in the config.js file, while adding the new api key you have registered for.
 - Code:
 var config = {
-    api_key: "1ea2c468f0cee30b1e01b9e6a2258346"
+    api_key: "enter_your_api_key_here"
 }
