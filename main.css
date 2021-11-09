@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: 'Rubik';
+    overflow-x:hidden;
+}
+
+.navbar{
+    padding: 2%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar-brand{
+    font-size: 64px;
+}
+
+.navbar-item-list{
+    font-size: 32px;
+}
+
+ a.nav-link{
+    /* padding: 100px; */
+    margin-left: 160px;
+
+}
+
+.main1{
+    width: 80%;
+    margin: 2%;
+    color: #084298;
+}
+
+.col-form-label{
+    text-align: left;
+}
+
+.text-lg-start{
+    text-align: center !important;
+
+}
+
+.carousel{
+    margin: 20px 0;
+    width: 50%;
+}
+
+.footer{
+    padding: 2% 10%;
+    padding-bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-submit-btn{
+    margin: 2%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 32px;
+    width: 30%;
+}
+
+
+ /**************** target 2 **********/
+
+ .main2{
+    margin: 0;
+    color: #084298;
+}
+
+.main__search-box--img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.main__search-box--container{
+    max-width: 800px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    height: fit-content;
+}
+
+.main__search-box--input{
+    border-radius: 40px;
+    height: 60px;
+    font-size: 2rem;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    padding-left: 32px;
+    padding-right: 32%;
+    box-sizing: border-box;
+}
+
+.main__search-box--button{
+    width: 30%;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    border: none;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    background-color: #0d6efd;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+}
+
+.main__weather-results-box{
+    margin: 20px auto 0 auto;
+    width: fit-content;
+    height: 1px;
+    display: flex;
+    align-items: center;
+}
+
+#main__weather-results-icon{
+    z-index: 5;
+    width: 200px;
+}
+
+#main__weather-results-text{
+    margin: auto;
+    margin-left: 60px;
+    font-size: 4rem;
+    color: white;
+}
